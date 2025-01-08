@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust when working with raw pointers and vectors. The `bug.rs` file shows how direct manipulation of the raw pointer obtained from `as_mut_ptr()` can lead to issues if the vector is reallocated. The solution in `bugSolution.rs` shows a safer way to achieve the same result using references.
